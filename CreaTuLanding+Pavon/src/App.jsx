@@ -1,14 +1,16 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Boton from './components/Boton/Boton'
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap-icons/font/bootstrap-icons.css";
+import Navbar from './components/Navbar/Navbar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 const App = () => {
+
   return (
     <>  
-      <h1>Welcome</h1>
-      <Boton></Boton>
+      <Navbar/>
+      <ItemListContainer saludo="Bienvenido a lotta pasteleria"/>
     </>
     
   )

@@ -1,0 +1,35 @@
+header {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f19d30;
+}
+.logo {
+    height: auto;
+    width: 80px;
+    margin: 10px 10px;
+}
+nav {
+    flex: 1;
+    height: 100%;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+li {
+    margin: 20px;
+    list-style: none;
+    font-size: 18px;
+    font-family: "Poppins";
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}

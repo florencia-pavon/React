@@ -1,0 +1,8 @@
+.saludo {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(180, 76, 76, 0.522);
+    display: flex;
+    justify-content: center;
+}
