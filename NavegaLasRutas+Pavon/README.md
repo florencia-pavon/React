@@ -27,6 +27,11 @@ Mini e-commerce ficticio hecho con **React Router DOM**, para practicar rutas di
 - 💅 Estilos personalizados y uso de hover.
 - 🎠 Uso de Props y componentes reutilizables.
 - 🛍️ Simulación de carrito con widget visible.
+- ⚠️ Manejo de rutas no existentes con `path="*"`
+- ⚙️ Uso de Hooks como `useState` y `useEffect` para manejar estado y efectos secundarios.
+- ⏳ Manejo de Promesas para simular llamadas asincrónicas a una base de datos.
+
+
 
 ## ✨ Autora  
 Desarrollado por Florencia Pavón 🚀
