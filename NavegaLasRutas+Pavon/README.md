@@ -1,12 +1,32 @@
-# React + Vite
+# 🧭 Navega Las Rutas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Mini e-commerce ficticio hecho con **React Router DOM**, para practicar rutas dinámicas y navegación con links. 🛒✨  
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías utilizadas  
+- **React** ⚛️  
+- **Vite** ⚡  
+- **React Router DOM** 🧭  
+- **HTML** 📝  
+- **CSS** 🎨  
+- **Bootstrap** 📦  
+- **Bootstrap Icons** 🎯  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚧 **Proyecto en desarrollo** 🚧  
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/fbe6eb33-7abf-4f5b-8da3-beed6d54a2e6" />
 
-## Expanding the ESLint configuration
+<img width="397" alt="image" src="https://github.com/user-attachments/assets/aa0e80a9-61fb-4c3e-9c29-b8a682a50c05" />
+<img width="399" alt="image" src="https://github.com/user-attachments/assets/0c7e32ad-ac6b-44b1-80b1-a75a204a8731" />
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
+## 🚀 Características
+- 🗂️ Rutas dinámicas por categoría.
+- 🔍 Vista de detalle por producto.
+- 💅 Estilos personalizados y uso de hover.
+- 🎠 Uso de Props y componentes reutilizables.
+- 🛍️ Simulación de carrito con widget visible.
+
+## ✨ Autora  
+Desarrollado por Florencia Pavón 🚀
