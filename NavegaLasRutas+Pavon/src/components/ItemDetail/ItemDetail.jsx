@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ItemCount from '../ItemCount/ItemCount'
 import { Link } from 'react-router-dom'
+import './ItemDetail.css'
 
 const ItemDetail = ({id, nombre, precio, imagen, stock, descripcion}) => {
 
@@ -12,14 +13,14 @@ const ItemDetail = ({id, nombre, precio, imagen, stock, descripcion}) => {
 
 
   return (
-    <div>
-        <h2>Nombre: {nombre}</h2>
-        <h3>Precio: {precio}</h3>
-        <h3>ID: {id}</h3>
+    <div className='contenedor-detalle-item'>
+        <h2>{nombre}</h2>
+        <h3>${precio}</h3>
+        <h3>Id: {id}</h3>
         <img src={imagen} alt={nombre} />
-        <p>{descripcion}</p>
+        <p className='descripcion'>{descripcion}</p>
         {
-          agregarCantidad > 0 ?( <Link to="/"> Seguir Comprando</Link> ) : ( <ItemCount inicial={1} stock={stock} funcionAgregar={manejadorCantidad}/> )
+          agregarCantidad > 0 ?( <Link className='seguir-comprando' to="/"> Seguir Comprando</Link> ) : ( <ItemCount inicial={1} stock={stock} funcionAgregar={manejadorCantidad}/> )
         }
 
     </div>

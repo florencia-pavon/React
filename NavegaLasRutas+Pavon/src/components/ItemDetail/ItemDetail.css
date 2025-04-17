@@ -1,0 +1,56 @@
+.contenedor-detalle-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 50%;
+    font-family: "Outfit", sans-serif;
+}
+
+.contenedor-detalle-item img {
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.contenedor-detalle-item button {
+    background-color: #f19d30;
+    color: #fafafa;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.2rem;
+    margin: 0px !important;
+}
+
+.descripcion{
+    font-size: 25px;
+    padding: 20px;
+}
+
+.seguir-comprando{
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0px;
+}

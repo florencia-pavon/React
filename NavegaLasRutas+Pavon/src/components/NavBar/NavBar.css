@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f19d30;
+}
+
+.logo {
+    height: auto;
+    width: 80px;
+    margin: 5px 5px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.link-categoria{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.link-categoria:hover{
+    color: #f19d30;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}

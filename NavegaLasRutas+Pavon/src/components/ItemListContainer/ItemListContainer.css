@@ -1,0 +1,11 @@
+.titulo {
+    font-family: "Bangers";
+    font-size: 40px !important;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    color: rgb(45, 44, 44);
+    text-decoration: none;
+    text-align: start;
+    text-shadow: 0.4px 0.4px rgb(95, 93, 93);
+  }

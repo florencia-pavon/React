@@ -4,6 +4,11 @@ import NavBar from './components/NavBar/NavBar'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 import Error404 from './components/Error404/Error404'
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap-icons/font/bootstrap-icons.css";
+import './App.css'
+
 
 const App = () => {
   return (
