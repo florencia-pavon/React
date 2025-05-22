@@ -1,4 +1,5 @@
 # 🍰 Lotta Pastelería
+https://lottapasteleria.netlify.app
 
 Mini e-commerce ficticio de una pastelería artesanal, desarrollado con **React**, **Firebase**, y **React Router DOM**. 🧁✨  
 Permite navegar entre productos, ver sus detalles, agregar al carrito y realizar una compra con generación de orden.  
