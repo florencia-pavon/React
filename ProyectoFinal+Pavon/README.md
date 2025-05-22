@@ -1,22 +1,22 @@
-# 🧭 Navega Las Rutas
+# 🍰 Lotta Pastelería
 
-Mini e-commerce ficticio hecho con **React Router DOM**, para practicar rutas dinámicas y navegación con links. 🛒✨  
+Mini e-commerce ficticio de una pastelería artesanal, desarrollado con **React**, **Firebase**, y **React Router DOM**. 🧁✨  
+Permite navegar entre productos, ver sus detalles, agregar al carrito y realizar una compra con generación de orden.  
 
 ## 🚀 Tecnologías utilizadas  
 - **React** ⚛️  
 - **Vite** ⚡  
 - **React Router DOM** 🧭  
+- **Firebase (Firestore)** 🔥  
 - **HTML** 📝  
 - **CSS** 🎨  
 - **Bootstrap** 📦  
 - **Bootstrap Icons** 🎯  
 
 ## 🚧 **Proyecto en desarrollo** 🚧  
-<img width="1470" alt="image" src="https://github.com/user-attachments/assets/fbe6eb33-7abf-4f5b-8da3-beed6d54a2e6" />
-
-<img width="397" alt="image" src="https://github.com/user-attachments/assets/aa0e80a9-61fb-4c3e-9c29-b8a682a50c05" />
-<img width="399" alt="image" src="https://github.com/user-attachments/assets/0c7e32ad-ac6b-44b1-80b1-a75a204a8731" />
-
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/6f44a023-833b-4623-80bc-cb65ef50e55d" />
+<img width="1467" alt="image" src="https://github.com/user-attachments/assets/6099086f-44e4-4474-8d34-547db2001d89" />
+<img width="1106" alt="image" src="https://github.com/user-attachments/assets/8c934896-edd0-4b5e-8536-3c37b1aaa212" />
 
 
 
@@ -24,14 +24,15 @@ Mini e-commerce ficticio hecho con **React Router DOM**, para practicar rutas di
 ## 🚀 Características
 - 🗂️ Rutas dinámicas por categoría.
 - 🔍 Vista de detalle por producto.
-- 💅 Estilos personalizados y uso de hover.
-- 🎠 Uso de Props y componentes reutilizables.
-- 🛍️ Simulación de carrito con widget visible.
-- ⚠️ Manejo de rutas no existentes con `path="*"`
-- ⚙️ Uso de Hooks como `useState` y `useEffect` para manejar estado y efectos secundarios.
-- ⏳ Manejo de Promesas para simular llamadas asincrónicas a una base de datos.
-
-
+- 🛒 Carrito de compras con contador y botón para vaciar.
+- 📝 Formulario de checkout para finalizar la compra.
+- 🔐 Validación de campos y correos electrónicos.
+- 💾 Conexión a Firebase Firestore para guardar órdenes y controlar stock.
+- 🧠 Uso de Context API para compartir el estado global del carrito.
+- ⚠️ Página de error personalizada con `path="*"`
+- ⚙️ Uso de Hooks como `useState`, `useEffect` y `useContext`.
+- ⏳ Manejo de Promesas y operaciones asincrónicas con Firebase.
 
 ## ✨ Autora  
-Desarrollado por Florencia Pavón 🚀
+Desarrollado por Florencia Pavón 🚀  
+Proyecto realizado como parte del curso de React JS en **CoderHouse** 💻📚 
