@@ -1,4 +1,4 @@
-# 🎂 Lotta Pastelería - Evolución en React
+# 🎂 Lotta Pastelería - Evolución en React ⚛️
 
 Este repositorio contiene las **3 versiones progresivas** del proyecto _Lotta Pastelería_, desarrolladas durante el curso de **React** en [CoderHouse](https://www.coderhouse.com/).  
 Cada versión muestra cómo el proyecto fue evolucionando a medida que incorporaba nuevos conocimientos sobre React, como routing, estados, contexto y conexión con bases de datos.
