@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <header>
       <Link to="/">
-        <img className="logo" src="../public/multimedia/logo.png" alt="logo" />
+        <img className="logo" src="/multimedia/logo.png" alt="logo" />
       </Link>
       <nav>
         <ul>
